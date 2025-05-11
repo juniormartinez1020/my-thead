@@ -4,17 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <View style={styles.container}>
-      <Text>Feed News</Text>
+    <View>
+      <Text style={{ margin: 10 }} className='text-4xl font-bold text-red-600'>Feed News</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
