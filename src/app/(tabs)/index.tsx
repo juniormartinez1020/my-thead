@@ -1,11 +1,11 @@
+import { Link } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>Hello Aliens 👽</Text>
-      <StatusBar style="auto" />
+      <Text>Feed News</Text>
     </View>
   );
 }
