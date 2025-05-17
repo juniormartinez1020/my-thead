@@ -1,6 +1,6 @@
 import { Post, User } from "./types"
 
-export const DummyUsers : User[] = [
+export const dummyUsers : User[] = [
    
     {
           "id": "user-1",
@@ -39,7 +39,7 @@ export const DummyUsers : User[] = [
         }
 ]
 
-export const DummyPosts : Post[] = [
+export const dummyPosts : Post[] = [
         {
           "id": "post-1",
           "createdAt": "2023-10-27T12:00:00Z",
