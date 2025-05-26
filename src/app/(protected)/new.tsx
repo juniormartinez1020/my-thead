@@ -33,6 +33,16 @@ export default function NewPostScreen() {
                     numberOfLines={4}
                 />
 
+
+                <TextInput
+                    placeholder="password"
+                    placeholderTextColor='gray'
+                    className="text-slate-50 text-lg"
+                    multiline
+                    numberOfLines={4}
+                    secureTextEntry
+                />
+
                 <View
                     className="mt-auto"
                 >
